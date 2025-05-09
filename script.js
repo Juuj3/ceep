@@ -14,5 +14,7 @@ function createHexagon() {
     hexagon.classList.add('hexagon');
 
     const x = getRandomNumber(0, window.innerWidth - 50);
-    const y = getRandomNumber(0, window.innerHeight)
+    const y = getRandomNumber(0, window.innerHeight - 57.735);
+    hexagon.style.left = `${x}px`;
+    hexagon.style.top = ´${y}px´;
 }
